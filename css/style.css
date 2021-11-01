@@ -1,0 +1,300 @@
+/*fonts start*/
+@font-face{
+	src: url(../font/Playfair/PlayfairDisplay-Regular.ttf);
+	font-family: 'Playfair Display', serif;
+}
+@font-face{
+	src: url(../font/Playfair/PlayfairDisplay-Black.ttf);
+	font-family: 'Playfair Display', serif;
+}
+@font-face{
+	src: url(../font/Playfair/PlayfairDisplay-Italic.ttf);
+	font-family: 'Playfair Display', serif;
+}
+@font-face{
+	src: url(../font/Playfair/PlayfairDisplay-Medium.ttf);
+	font-family: 'Playfair Display', serif;
+}
+@font-face{
+	src: url(../font/Playfair/PlayfairDisplay-SemiBold.ttf);
+	font-family: 'Playfair Display', serif;
+}
+@font-face{
+	src: url(../font/ubuntu/Ubuntu-Regular.ttf);
+	font-family: 'Ubuntu', sans-serif;
+}
+@font-face{
+	src: url(../font/ubuntu/Ubuntu-Light.ttf);
+	font-family: 'Ubuntu', sans-serif;
+}
+/*font end*/
+
+/*common*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	font-weight: 400;
+	color:#626262 ;
+}
+/*common*/
+
+/*header start*/
+header{
+
+}
+.wrapper{
+	margin: 0 auto;
+	padding: 40px 0;
+	overflow: hidden;
+	width: 90%;
+	/*border: 1px solid red;*/
+}
+.logo{
+	width: 9%;
+	overflow: hidden;
+	float: left;
+	display: inline-block;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 60%;
+	float: right;
+}
+.menu ul{
+	margin: 0;
+	float: right;
+
+}
+.menu ul li{
+	list-style-type: none;
+	float: left;
+}
+.menu ul li:last-child a{
+	margin-right: 0px;
+}
+.menu ul li a{
+	text-decoration: none;
+	margin: 0 60px;
+	padding:5px 2px;
+	display: inline-block;
+	color: #626262;
+	border-bottom: 2px solid transparent;
+}
+.menu ul li a:hover{
+	border-bottom: 2px solid #626262;
+}
+	
+/*header end*/
+
+/*banner start*/
+.banner{
+
+}
+.b-padd{
+	padding-bottom: 100px;
+	
+}
+.b-img{
+
+}
+.b-img img{
+	width: 100%;
+}
+
+/*banner end*/
+/*perfect start*/
+.perfect{}
+.wrapper2{
+	margin: 0 auto;
+	width: 75%;
+}
+.p-content{
+
+}
+.s-perfect{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+.h-perfect{
+	margin: 30px 0;
+	font-size: 30px;
+	font-weight: 400;
+
+}
+.p-text{
+	margin: 0;
+	font-size: 16px;
+	line-height: 24px;
+}
+.p-mar{
+	margin-bottom: 50px;
+}
+
+/*perfect end*/
+/*blog start*/
+.blog{}
+.b_content{
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+.b_single{
+	margin: 135px 0 0;
+	width: 45%;
+	float: left;
+}
+.b_single:nth-child(even){
+	margin-left: 10%;
+}
+.blog_img{
+	margin-bottom: 25px;
+}
+.blog_img img{
+	width: 100%;
+}
+
+
+/*blog end*/
+/*sign up start*/
+.news{
+	margin: 125px 0 0;
+	padding: 75px 0;
+	background-color: #f0f0f0;
+}
+.wrapper3{
+	width: 60%;
+	margin: 0 auto;
+}
+.form{
+	text-align: center;
+}
+.form h1{
+	margin: 0 0 80px 0;
+	font-size: 30px;
+}
+.n_form{
+	position: relative;
+	width: 400px;
+    margin: 0 auto;
+}
+.n_form input{
+	padding: 0 50px 10px 10px;
+	border: none;
+	background-color: transparent;
+	border-bottom: 2px solid #626262;
+	outline: none;
+	width: 315px;
+	font-family: 'Playfair Display', serif; ;
+	font-size: 16px;
+	font-weight: 400;
+
+}
+.n_form button{
+	border: none;
+	background-color: transparent;
+}
+.n_form button img{
+	position: absolute;
+	top: 5px;
+	right: 20px;
+}
+
+/*sign up end*/
+
+/*footer blog start*/
+.footer_blog{}
+
+/*footer blog end*/
+/*load more start*/
+.wrapper4{
+	margin: 0 auto;
+	width: 20%;
+	text-align: center;
+	overflow: hidden;
+}
+.wrapper4 button{
+	margin: 170px 0;
+	width: 165px;
+	height: 60px;
+	background-color: transparent;
+	border: none;
+	border: 2px solid #dddcd7;
+	transition: .3s;
+}
+.wrapper4 button:hover{
+	background-color: #626262;
+	border: none;
+
+}
+.wrapper4 button h1{
+	margin:0;
+	font-family: 'Playfair Display', serif; ;
+	font-size: 20px;
+	font-weight: 400;
+	color: #626262;
+	transition: .3s;
+}
+.wrapper4 button:hover h1{
+	color: #ffffff;
+	
+}
+/*load more end*/
+/*footer start*/
+.footer{
+	background-color:#f0f0f0 ;
+	overflow: hidden;
+}
+.foots{
+	padding: 40px 0;
+	font-family: 'Playfair Display', serif; ;
+	font-size: 16px;
+	font-weight: 400;
+	overflow: hidden;
+}
+.terms{
+	width: 22%;
+	float: left;
+	display: inline-block;
+	
+}
+.terms p{
+	margin: 0;
+}
+.t1{
+	float: left;
+}
+
+.t1 a{
+	text-decoration: none;
+	color: #000000;
+}
+.t2{
+	float: right;
+}
+.social{
+	width: 13%;
+	float: right;
+	display: inline-block;
+	overflow: hidden;
+}
+.social p{
+	margin: 0;
+	float: left;
+	color: #000000;
+}
+.s_imgs{
+	float: right;
+}
+.s_imgs a{
+	margin: 0 5px;
+	color: #626262;
+}
+/*footer end*/
